@@ -6,3 +6,13 @@
 19:15:20.361357 db@open done T·43.563701ms
 19:19:37.111558 db@close closing
 19:19:37.113956 db@close done T·2.389415ms
+=============== Sep 20, 2023 (UTC) ===============
+19:19:40.316766 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:19:40.328913 version@stat F·[] S·0B[] Sc·[]
+19:19:40.329944 db@open opening
+19:19:40.332597 journal@recovery F·1
+19:19:40.334386 journal@recovery recovering @1
+19:19:40.380644 memdb@flush created L0@2 N·5 S·383B "c\x00\x00..\x00\x00\x00,v4":"onumber,v3"
+19:19:40.384074 version@stat F·[1] S·383B[383B] Sc·[0.25]
+19:19:40.565736 db@janitor F·3 G·0
+19:19:40.566159 db@open done T·235.662246ms
